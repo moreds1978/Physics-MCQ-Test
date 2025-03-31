@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    Physics Study Material
+    <title>Physics Notes</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#Rotational Dynamics">Rotational Dynamics</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="Rotational Dynamics">
-            <h2>Rotational Dynamics</h2>
-            <p>Interactive lessons on kinematics, dynamics, and statics</p>(Description About Topic)
-            <ul>
-                <li><a href="https://drive.google.com/file/d/11H5a7thfOi2fKeMpkquvTVhWqIy-CLio/view?usp=sharing)">Kinematics</a></li> 
-                <li><a href="mechanics/dynamics.html">Dynamics</a></li>
-                <li><a href="mechanics/statics.html">Statics</a></li> 
-            </ul>
+    <aside class="sidebar">
+        <h2>Class 12 Physics</h2>
+        <ul id="notes-menu">
+            <li><a href="#chapter1">Chapter 1: Electric Charges</a></li>
+            <li><a href="#chapter2">Chapter 2: Electrostatic Potential</a></li>
+            <li><a href="#chapter3">Chapter 3: Current Electricity</a></li>
+        </ul>
+    </aside>
+    <main class="content">
+        <header>
+            <h1>Physics Notes</h1>
+        </header>
+        <section id="chapter1" class="note-section">
+            <h2>Chapter 1: Electric Charges</h2>
+            <p>Electric charge is a fundamental property of matter...</p>
+            <a href="https://www.selfstudys.com/books/ncert-notes/english/class-12th/physics/chapter-1-electric-charges-and-fields/981755" class="download-btn" target="_blank">Download PDF</a>
         </section>
-        </main>
-    </body>
+        <section id="chapter2" class="note-section">
+            <h2>Chapter 2: Electrostatic Potential</h2>
+            <p>Electrostatic potential is the potential energy per unit charge...</p>
+            <a href="notes/electrostatic_potential.pdf" class="download-btn" target="_blank">Download PDF</a>
+        </section>
+        <section id="chapter3" class="note-section">
+            <h2>Chapter 3: Current Electricity</h2>
+            <p>Current electricity deals with the movement of charge...</p>
+            <a href="notes/current_electricity.pdf" class="download-btn" target="_blank">Download PDF</a>
+        </section>
+    </main>
 
+</body>
 </html>
-
